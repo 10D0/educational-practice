@@ -1,0 +1,44 @@
+body{
+  z-index: 0;
+  background-repeat: no-repeat;
+  resize: both;
+  background: url(../pictures/фон.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+address{
+  font-style: normal;
+  padding-top: 1cm;
+  margin: 0cm 0 1cm;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.699);
+}
+figure {
+    float: left;
+    width: auto;
+    height: 7cm;
+    margin: 5mm;
+    margin: 2mm 13mm 2mm 13mm;
+  }
+  figure img {
+    width: 4cm;
+    background: rgb(84,84,84);
+    background: linear-gradient(0deg,rgb(0, 0, 0) 0%, rgb(36, 36, 36) 30%, rgb(46, 46, 46) 70%, rgb(0, 0, 0) 100% );
+    padding: 2mm 13mm 2mm 13mm;
+  }
+  figcaption {
+    z-index: 1;
+    font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    background-color: black;
+    width: auto;
+    padding: 1mm;
+  }
+  address{
+      padding: 0cm 5cm 0cm 5cm;
+  }
+  

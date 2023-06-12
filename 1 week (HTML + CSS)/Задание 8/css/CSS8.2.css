@@ -1,0 +1,113 @@
+/* сброс стилей браузера */
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+	overflow: hidden;
+}
+body {
+    line-height: 1.2;
+}
+ol { 
+    padding-left: 1.4em;
+    list-style: decimal;
+    }
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+body {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background: #5c95bb url(../pictures/yt\,j.jpg) repeat-x;
+}
+.main {
+    width: 740px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border: 4px solid white;
+    background: transparent url(../pictures/yt\,j.jpg) no-repeat;
+}
+
+.main h1 {
+    color: #4621ca9c;
+    font-family: "Arial Black", Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+.main h1 strong {
+    font-size: 150px;
+    color: white;
+    line-height: 1em;
+    margin-right: -1.25em;
+}
+.main h2 {
+	font: bold 3.5em "Hoefler Text", Garamond, Times, serif;
+	border-bottom: 1px solid #002D4B;
+	margin-top: 25px;
+}
+.main h3 {
+	color: #4621ca9c;
+	font-size: 1.9em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.main p {
+	font-size: 1.5em;
+	line-height: 150%;
+	margin-bottom: 10px;
+	margin-left: 150px;
+	margin-right: 50px;
+}
+.resources {
+	margin: 0 0 25px 50px;
+	width: 225px;
+	float: right;
+	padding: 20px;
+	color: #002D4B;
+	background: #F5EFFB;
+	border-bottom: none;
+	padding-right: 22px;
+	background-color: #268080;
+	border-radius: 25px;
+	border: 2px dashed blue;
+}
+.resources h3 {
+	margin-top: 0;
+	color: #4621ca9c;
+}
+.resources li {
+	font-size: 1.5em;
+	margin-bottom: 7px;
+	color: #4621ca9c;
+}
+.main .byline {
+	color: #575757;
+	font-size: 1.6em;
+	margin: 5px 0 25px 40px;
+}
+.main .byline strong {
+	color: #1e608f;
+	text-transform: uppercase;
+	margin-left: 11px;
+} 
+.main .legal{
+	margin-top: 15px;
+	padding-top: 5px;
+	border-top: 1px solid #002D4B;
+	margin-left: 0px;
+	padding-left: 150px;
+}
+hr{
+	border: 0px;
+	background-color: rgb(21, 124, 124);
+	height: 1px;
+}

@@ -1,0 +1,65 @@
+body{
+    overflow: hidden;
+    font-size: 20px;
+    background: rgb(255,0,114);
+    background: linear-gradient(141deg, rgba(255,0,114,1) 0%, rgba(238,112,192,1) 51%, rgba(255,0,93,1) 100%);
+}
+.textbox{
+    padding: 10mm;
+    border-radius: 25px;
+    background: rgb(0,212,255);
+    background: linear-gradient(34deg, rgba(0,212,255,1) 0%, rgba(112,112,238,1) 51%, rgba(0,212,255,1) 100%);
+    margin: 2cm 10cm auto 10cm;
+    height:18cm;
+}
+.righttext{
+    height:90%
+}
+.righttext h2{
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.lefttext{
+    background-size: contain;
+    float:left;
+    height:90%;
+    margin-right: 1cm;
+}
+.lefttext ul{
+    font-size: 15px;
+    
+    margin-left:  5mm;
+    margin-top: 0cm;
+}
+.lefttext h2{
+    margin-top: -9cm;
+    margin-left: 3cm;
+    font-weight: bold;
+    font-size: 25px;
+}
+.bottomtext{
+    height: auto;
+}
+.bottomtext p{
+    margin: 0px;
+    margin-left: 1cm;
+}
+hr{
+    border: 0px;
+    height: 1px;
+    background-color: azure;
+    margin: 5px;
+}
+.firsthand{
+    transform: scale(-1, 1);
+    height: 20cm;
+    margin-left: -9cm;
+    margin-bottom: -17.5cm;
+}
+.secondhand{
+    height: 10cm;
+    float: right;
+    margin-top: -4.6cm;
+    margin-right: -10.6cm;
+}

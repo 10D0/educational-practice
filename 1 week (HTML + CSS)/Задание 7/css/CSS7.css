@@ -1,0 +1,30 @@
+html{
+    font-family: monospace;
+}
+body{
+    background-color: rgb(63, 63, 63);
+}
+address{
+    background-color:rgb(142, 151, 151);
+    margin: 3cm 10cm 3cm 10cm;
+    padding: 1cm;
+    box-shadow: 5px 5px 25px black;
+    border-radius: 20px;
+}
+h1{
+    color:rgb(0, 0, 0);
+
+}
+h2{
+    color:rgb(0, 0, 0);
+}
+p{
+    font-size: 15px;
+    color:rgb(71, 70, 70);
+    padding: 0mm 5mm 5mm 10mm;
+}
+hr{
+    border: 0px;
+    height: 1px;
+    background-color: rgb(63, 63, 63);
+}

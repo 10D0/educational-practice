@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    height: 5cm;
+}
+.header img{
+    width: 100%;
+    height: 5cm;
+    object-fit: cover;
+    
+    object-position: 0% 18%;
+}
+.mainpart{
+    width: 37cm;
+    margin: 50px auto 2cm auto;
+}
+.a1997{
+
+}
+.a1997 img{
+    margin: 0mm 5mm 5mm 0mm;
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.a2016{
+}
+.a2016 img{
+    margin: 0mm 0mm 5mm 5mm;
+    float: right;
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+}
+h4{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    margin: 80px 0px 20px;
+}
+h3{
+   font-size: 28px;
+   font-weight: bold; 
+}
+h6{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    margin: 20px 0px 20px;
+}
+p{
+    text-indent: 50px;
+    
+    font-size: 25px;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    leading-trim: both;
+    text-edge: cap;
+}
+figure a{
+    width: 100%;
+    height: 25%;
+    object-position: center center;
+}
+figcaption{
+    margin-top: 5mm;
+    text-align: center;
+    font-size: 12px;
+}
+figure img{
+    margin-top: -4mm;
+    margin-left: -7mm;
+    width: 107.6%;
+
+}
+.manga{
+
+}
+.manga img{
+    float: left;
+    width: 40%;
+    height: auto;
+    margin: 0mm 5mm 5mm ;
+}
+.footer1{
+    width: 100%;
+    height:5cm;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    vertical-align:middle;
+    word-spacing: 5px;
+    background-image: url(../pictures/фон5.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    background-position: 0% 42%;
+    position:relative;
+    /*position: fixed;*/
+}
+.footer1 a{
+    margin-top: 2cm;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+}
+:link, .footer1 a:visited, .footer1 a:focus {
+    background: rgb(34, 34, 33);
+}
+
+.footer1 a:hover {
+    background: rgb(126, 123, 123);
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+.footer1 a:active {
+    background: rgb(32, 31, 31);
+    color: rgb(73, 68, 68);
+}
+.footer1 img{
+    object-fit: cover;
+    /**/
+    height: 7cm;
+    z-index: 3;
+    width: 100%;
+    object-position: 0% 42%;
+    position:relative;
+}
+ul {
+    padding: 0;
+    width: 60%;
+    margin-left: 20%;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    padding: 4mm 7mm 4mm 7mm;
+    margin: auto;
+    vertical-align: top;
+    font-size: 15px;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 25px;
+    color: rgb(233, 38, 38);
+}
+  
+li:last-child a {
+    margin-right: 0;
+}
+  
+a:link, a:visited, a:focus {
+    background: rgb(34, 34, 33);
+}
+
+a:hover {
+    background: rgb(126, 123, 123);
+    text-decoration: none;
+  }
+  
+  a:active {
+    background: rgb(32, 31, 31);
+    color: rgb(73, 68, 68);
+  }
+
+
+/*стиль изображения */
+
+/* Общие стили */
+*, *:after, *:before { 
+	border-box; 
+	box-sizing: border-box; 
+}
+.clearfix:before, .clearfix:after { 
+	content: ''; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.hover-text-one {
+	overflow: hidden;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+.hover-text-one figure {
+    height: 10cm;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	background: #527c82;
+	text-align: center;
+	cursor: pointer;
+}
+.hover-text-one figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+}
+.hover-text-one img:hover {
+    background-color: #000000be;
+}
+.hover-text-one figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+    background-color: #cccccc;
+	pointer-events: none;
+}
+.hover-text-one figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.hover-text-one figure h3 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.hover-text-one figure h3 span {
+	font-weight: 800;
+}
+.hover-text-one figure h3,
+.hover-text-one figure p {
+	margin: 0;
+}
+.hover-text-one figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Эффект при наведении */
+figure.effect-text-four figcaption {
+	text-align: right;
+    
+}
+figure.effect-text-four h3,
+figure.effect-text-four p {
+    position: absolute;
+	right: 30px;
+	left: 30px;
+	padding: 10px 0;
+    font-weight: 400;
+    color:white;
+}
+figure.effect-text-four p {
+	bottom: 30px;
+	line-height: 1.5;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+figure.effect-text-four h3 {
+	top: 30px;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+figure.effect-text-four:hover h3 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-four h3::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #fff;
+	content: '';
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+figure.effect-text-four h3::after,
+figure.effect-text-four p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+figure.effect-text-four:hover h3::after,
+figure.effect-text-four:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.effect-text-four a{
+    background-color: transparent;
+    color: white;
+}    
+
+.effect-text-four a:hover{
+    background-color: transparent;
+    color: white;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.effect-text-four:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/*чб*/
+.grey-image {
+    filter: grayscale(1); /* Черно-белый фильтр для изображения */
+    transition: 1s; /* Время изменения цвета изображения */
+}
+.grey-image:hover {
+    filter: grayscale(0); /* Цветное изображение при наведении */
+}

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    z-index: 0;
+}
+body{
+    background-color: aqua;
+    height: 100%;
+}
+.upheader{
+    width: 100%;
+    height: 360px;
+    top: 0;
+    left: -1000px;
+    margin-left: auto;
+    background-size:cover;
+    background-image: url(../pictures/баннер.png);
+    background-color: #0000008e;
+    background-blend-mode: overlay;
+}
+header{
+    width: 1921px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header img{
+    position:relative;
+    margin-left: 18%;
+    margin-right: auto;
+    width: 60%;
+    height: 90%;
+    object-fit: cover;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+header p{
+    text-indent: 50px;
+    position: relative;
+width: 905px;
+height: 174px;
+margin-left: auto;
+margin-right: auto;
+top: -40mm;
+font-style: normal;
+font-weight: 800;
+font-size: 110px;
+line-height: 219px;
+color: #ffffff;
+}
+.mainpart{
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 37cm;
+    height: 100%;
+}
+.opisanie{
+    width: auto;
+    height: 15cm;
+}
+.opisanie h4{
+    font-weight: 800;
+font-size: 40px;
+margin-left:3.5cm;
+leading-trim: both;
+    text-edge: cap;
+    color: #000000;
+}
+.opisanie p{
+    text-indent: 50px;
+    font-weight: 400;
+    font-size: 28px;
+    
+}
+.opisanie img{
+    margin-left: 5mm;
+    width: 50%;
+    height: auto;
+    float: right;
+}
+.sozdanie{
+
+    position: relative;
+width: auto;
+height: auto;
+margin-top: 50px;
+}
+.sozdanie h4{
+font-weight: 800;
+font-size: 40px;
+text-align: center;
+color: #000000;
+}
+.sozdanie p{
+    text-indent: 50px;
+    padding: 5mm;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 47px;
+    leading-trim: both;
+    text-edge: cap;
+    color: #000000;
+}
+.sozdanie img{
+    margin: 5mm 5mm 5mm 0mm;
+width: 60%;
+height: auto;
+float: left;
+}
+.dalee{
+    margin-top:50px;
+    margin-bottom: 50px;
+    width: auto;
+    height: auto;
+}
+.dalee h4{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 78px;
+    text-align: center;
+    color: #000000;
+}
+.dalee p{
+    text-indent: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 47px;
+    leading-trim: both;
+    text-edge: cap;
+    color: #000000;
+}
+.footer1{
+    width: 100%;
+    height:5cm;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    vertical-align:middle;
+    word-spacing: 5px;
+    background-image: url(../pictures/фон5.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    background-position: 0% 42%;
+    position:relative;
+    /*position: fixed;*/
+}
+
+.footer1 a{
+    margin-top: 2cm;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+}
+:link, .footer1 a:visited, .footer1 a:focus {
+    background: rgb(34, 34, 33);
+}
+
+.footer1 a:hover {
+    background: rgb(126, 123, 123);
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+.footer1 a:active {
+    background: rgb(32, 31, 31);
+    color: rgb(73, 68, 68);
+}
+.footer1 img{
+    object-fit: cover;
+    /**/
+    height: 7cm;
+    z-index: 3;
+    width: 100%;
+    object-position: 0% 42%;
+    position:relative;
+}
+/*всплывающее окно*/
+#zatemnenie {
+    background: rgba(0, 0, 0, 0.747);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    overflow: hidden;
+    position: fixed;}
+#okno {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;}
+#zatemnenie:target {display: block;}
+.close {
+    display: inline-block;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 14pt;
+    height: 35px;
+    cursor:pointer;}
+.close:hover {background: #e6e6ff;}
+/*оформление ссылкок*/
+ul {
+    padding: 0;
+    width: 60%;
+    margin-left: 20%;}
+li {display: inline;}
+
+a {
+    height: 15mm;
+    padding: 4mm 7mm 4mm 7mm;
+    margin: auto;
+    vertical-align: top;
+    font-size: 15px;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 25px;
+    color: rgb(233, 38, 38);
+}
+li:last-child a {margin-right: 0;}
+a:link, a:visited, a:focus {background: rgb(34, 34, 33);}
+a:hover {
+    background: rgb(126, 123, 123);
+    text-decoration: none;}
+  
+  a:active {
+    background: rgb(32, 31, 31);
+    color: rgb(73, 68, 68);}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap');
+html{  overflow-x: hidden;font-family: 'Montserrat', sans-serif;}
+body{
+  z-index: 0;
+  background-repeat: no-repeat;
+  resize: both;
+  background: url(../pictures/гороскопс/фон.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.puk{
+  padding: 5mm;
+  text-align: center;
+  left: -7cm;
+  font-style: normal;
+  color: white;
+  margin: 0cm 0 1cm;
+  background-color: rgba(0, 0, 0, 0.678);
+  padding-left: auto;
+  padding-right: auto;  }
+address{
+  padding: 0cm 5cm 0cm 5cm;
+  width: 1500px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: normal;
+  background-color: rgba(0, 0, 0, 0.699);}
+figure {    float: left;    width: auto;    height: 6cm;    margin: 0mm 13mm 0mm 13mm;}
+figure img {  width: 4cm;  background: rgb(84,84,84);  background: linear-gradient(0deg,rgb(0, 0, 0) 0%, rgb(36, 36, 36) 30%, rgb(46, 46, 46) 70%, rgb(0, 0, 0) 100% ); padding: 2mm 13mm 2mm 13mm;}
+figcaption {
+  z-index: 1;
+  font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: medium;
+  background-color: black;
+  width: auto;
+  padding: 1mm;}
+.footer1{
+    width: 100%;
+    height:3cm;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    vertical-align:middle;
+    word-spacing: 5px;
+    background-image: url(../pictures/фон5.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    background-position: 0% 42%;
+    position: fixed;}
+.footer1 a{
+    margin-top: 5mm;
+    color: rgb(196, 196, 196);
+    text-decoration: none;}
+:link, .footer1 a:visited, .footer1 a:focus {    background: rgb(34, 34, 33);}
+.footer1 a:hover {    background: rgb(126, 123, 123);    text-decoration: none;    color: whitesmoke;  }  
+.footer1 a:active {    background: rgb(32, 31, 31);    color: rgb(73, 68, 68);}
+.footer1 img{
+    object-fit: cover;
+    height: 7cm;
+    z-index: 3;
+    width: 100%;
+    object-position: 0% 42%;
+    position:relative;}
+ul {    padding: 0;    width: 60%;    margin-left: 20%;}
+li {    display: inline;}
+a {
+    padding: 4mm 7mm 4mm 7mm;
+    margin: auto;
+    vertical-align: top;
+    font-size: 15px;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 25px;
+    color: rgb(233, 38, 38);}  
+li:last-child a {    margin-right: 0;}  
+a:link, a:visited, a:focus {    background: rgb(34, 34, 33);}
+a:hover {    background: rgb(126, 123, 123);    text-decoration: none;  }  
+  a:active {    background: rgb(32, 31, 31);    color: rgb(73, 68, 68);  }
+  

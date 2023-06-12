@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link href="./css/CSS10.2.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="box">
+            <h1>Регистрация подписчика</h1>
+    
+            <form class="form"  method="post" action="submit.html">
+                <p>
+                    <label for="name" class="label">Как ваше имя?</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="email" class="label">как ваш адрес электронной почты</label>
+                    <input type="text" name="email" id="email">
+                </p>
+                <p>
+                    <span class="label">Как ваш опыть программирования</span>
+                    <label>
+                        <input name="skill" type="radio" value="beginner">джун
+                    </label>
+    
+                    <label>
+                        <input name="skill" type="radio" value="intermediate">сеньор
+                    </label>
+    
+                    <label>
+                        <input name="skill" type="radio" value="advanced">Максим
+                    </label>
+                </p>
+                <p>
+                    <label for="refer" class="label">Откуда вы узнали о нас?</label>
+                    <select name="uznal" id="refer">
+                        <option value="null">Выберите вариант</option>
+                        <option value="1">конференция</option>
+                        <option value="2">из газеты</option>
+                        <option value="3">от знакомых</option>
+                        <option value="4">В интеренете</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comments" class="label">Дополнительные комментарии </label>
+                    <textarea name="comments" cols="35" rows="5" id="comments"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Подписаться">
+                </p>
+            </form>
+        </div>
+    </body>
+</html>

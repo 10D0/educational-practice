@@ -1,0 +1,22 @@
+figure {
+    float: right;
+    width: auto;
+    margin: 5mm;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 2mm 13mm 2mm 13mm;
+  }
+  figure img {
+    width: 4cm;
+    background-color: rgb(0, 0, 0);
+    padding: 2mm 13mm 2mm 13mm;
+  }
+  figcaption {
+    font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: auto;
+    /*border: 2px dashed #***;*/
+    padding: 0mm 1mm 1mm 1mm;
+  }
+  

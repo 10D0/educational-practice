@@ -1,0 +1,41 @@
+body{
+    background-image: url(../pictures/beer.jpg);
+}
+.MainPart{
+    margin: 3cm; 
+    padding: 0.5cm;
+    background-color: rgba(240, 255, 255, 0.829);
+}
+h1{
+    font-style:italic; 
+    font-family: Monotype Corsiva;
+    color:purple;
+}
+.Podpis{
+    color: gray;
+}
+.BoldPodpis{
+    font-weight: bold;
+}
+.PodZagolovok{
+    color: purple;
+    letter-spacing: 5px;  
+}
+.italicfont{
+    font-style:italic;
+}
+dt{
+    color:rgb(150, 114, 23); 
+    font-weight:bold;
+}
+.price{
+    color:gray;
+    font-family: Corbel Regular;
+    font-size: 17px
+}
+.novinka{
+    color:brown 
+}
+.zacherkivanie{
+    text-decoration:line-through;
+}
